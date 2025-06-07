@@ -11,3 +11,10 @@ def load_data():
     data = pd.read_excel("Data\Data Indeks Standar Pencemar Udara (ISPU) di Provinsi DKI Jakarta ).xls.xlsx")
     data['tanggal'] = pd.to_datetime(data['tanggal'])
     return data
+
+# checkbox widget
+checkbox = st.sidebar.checkbox("Reveal data.")
+
+if checkbox:
+    # st.write(data)
+    st.dataframe(data=load_data())
