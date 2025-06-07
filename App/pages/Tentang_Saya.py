@@ -12,9 +12,10 @@ def load_data():
     data['tanggal'] = pd.to_datetime(data['tanggal'])
     return data
 
+data = load_data()
 # checkbox widget
 checkbox = st.sidebar.checkbox("Reveal data.")
 
 if checkbox:
     # st.write(data)
-    st.dataframe(data=load_data())
+    st.dataframe(data=data)
