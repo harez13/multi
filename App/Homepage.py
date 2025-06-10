@@ -256,17 +256,14 @@ with col3:
     - Kematian dini  
     """)
 
-import streamlit as st
+st.markdown("##### Bagaimana saya bisa melindungi diri dari polusi udara?")
 
-st.markdown("---")
-st.header("Bagaimana saya bisa melindungi diri dari polusi udara?")
-
-st.subheader("Bagaimana saya dapat meningkatkan kualitas udara di rumah saya?")
+st.markdown("###### Bagaimana saya dapat meningkatkan kualitas udara di rumah saya?")
 st.markdown("""
 Kualitas udara dalam ruangan tidak aman dari polusi udara luar ruangan. Selain itu, ada banyak sumber emisi khusus untuk lingkungan dalam ruangan yang dapat menyebabkan peningkatan tingkat polusi udara dalam ruangan. Untuk meningkatkan kualitas udara di rumah, ventilasi dalam ruangan dan sumber dalam ruangan harus dikelola.
 """)
 
-st.subheader("Metode mitigasi polusi udara dalam ruangan meliputi:")
+st.markdown("###### Metode mitigasi polusi udara dalam ruangan meliputi:")
 st.markdown("""
 - Periksa tingkat kualitas udara terkini dan prakiraan di wilayah Anda. Ikuti anjuran kesehatan untuk kondisi terkini.  
 - Tutup jendela dan pintu. Tutup rapat celah-celah pintu dan jendela untuk meminimalkan kebocoran udara.  
@@ -274,7 +271,7 @@ st.markdown("""
 - Gunakan pembersih udara atau filter HVAC efisiensi tinggi (seperti filter HEPA atau HyperHEPA) untuk menghilangkan polutan halus dari udara.
 """)
 
-st.subheader("Jika tingkat polusi udara dalam ruangan sudah sangat tinggi:")
+st.markdown("###### Jika tingkat polusi udara dalam ruangan sudah sangat tinggi:")
 st.markdown("""
 - Hindari aktivitas berat, seperti berolahraga, untuk mengurangi jumlah polusi udara yang Anda hirup.  
 - Gunakan masker polusi N95, jika tersedia.  
@@ -283,16 +280,23 @@ st.markdown("""
 - Ketahui peringatan kualitas udara ketika polusi udara ruangan menjadi “berbahaya” yang dapat terjadi jika terjadi kebakaran hutan di dekatnya.
 """)
 
-st.subheader("Bagaimana masker dapat melindungi dari polusi udara?")
+st.markdown("###### Bagaimana masker dapat melindungi dari polusi udara?")
 st.markdown("""
 Masker sangat efektif dalam mengurangi paparan polusi udara. Sementara kategori masker polusi udara yang umum mencakup masker untuk menangani bahan kimia yang berasal dari pembakaran, sebagian besar tersedia di pasaran hanya bekerja untuk partikel dan polutan kecil.  
 
 Untuk penggunaan sehari-hari, masker dengan filter partikel udara yang halus cocok untuk orang yang mengalami gas pada tingkat bahaya sedang atau tinggi. Masker berkualitas tinggi bisa membantu melindungi seseorang dari PM2.5, virus, bakteri, dan alergen.  
 
 **Dalam mengevaluasi efektivitas masker polusi, tiga komponen harus dievaluasi:** filter polusi, segel masker, dan ventilasi.
-""")
+- Filter polusi: Filter polusi biasanya diberi peringkat N90, N95, N99, atau N100. Peringkat tersebut menyatakan persentase partikel (> 0,3 µg) yang dapat diblokir oleh masker. Misalnya, masker N95 memblokir 95% partikel yang lebih besar dari 0,3 mikrogram. Ini termasuk sebagian besar PM2,5 dan PM10. Semakin tinggi peringkatnya, semakin efektif filter masker, dengan asumsi segel masker dan komponen ventilasi berfungsi dengan baik.
+- Segel masker: Terlepas dari peringkat filter polusi masker, masker yang tidak menutup rapat wajah tidak efektif karena udara akan mengalir masuk tanpa disaring melalui sisi-sisi masker. Segel masker yang baik akan menyebabkan masker tersedot ke wajah saat terhirup. Untuk masker sekali pakai yang fleksibel, isapan ini harus terlihat, yang menyebabkan filter tertekuk ke dalam sehingga menciptakan permukaan cekung. Untuk masker dengan konstruksi yang lebih kokoh, tekanan yang sedikit meningkat saat menghirup udara seharusnya dapat dirasakan. Jika masker tidak tertutup rapat di wajah, udara akan mengalir masuk melalui sisi-sisi masker yang terbuka.
+- Ventilasi (katup CO2): Ventilasi membuat masker lebih mudah bernapas sekaligus mengurangi kelembapan dan akumulasi CO2. Meskipun bukan fitur semua masker, banyak yang menggunakan katup CO2 seukuran koin untuk memberikan aliran keluar yang terarah. Menghirup udara yang berventilasi buruk dengan kadar CO2 yang tinggi dapat menyebabkan efek jangka pendek seperti sakit kepala, lesu, pusing, dan mual. ​​Masker dengan katup ventilasi tidak efektif untuk mengurangi penyebaran virus, karena keluaran pernapasan tidak tersaring.
 
-st.caption("Sumber: IQAir (2024) – disederhanakan dan disusun ulang untuk kejelasan")
+Masker bedah sekali pakai terjangkau dan mudah didapat. Masker ini juga sangat efektif terhadap polusi partikel. Sebuah studi di Edinburgh yang dilakukan oleh Particle and Fiber Toxicology menguji masker bedah hingga 0,007 µg dan menemukan bahwa bahan masker bedah mampu memblokir 80% partikel.
+
+Dalam studi lain, uji kecocokan diterapkan pada masker bedah untuk menguji efektivitasnya secara lebih akurat, dengan memperhatikan kecocokan yang umumnya longgar. Dalam pengujian ini, tingkat penyaringan turun hingga 63% akibat kebocoran di sekitar masker.
+
+Walaupun kedua pengujian tersebut mengungkap bahwa masker bedah secara signifikan kurang efisien dibandingkan masker respirator (dengan peringkat N90-N100), masker bedah membantu mengurangi paparan polusi partikulat halus dengan biaya yang sangat rendah.
+""")
 
 
 
