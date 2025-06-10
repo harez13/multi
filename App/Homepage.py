@@ -75,18 +75,18 @@ st.subheader("Bagaimana polusi udara memengaruhi anak-anak?")
 col_a1, col_a2, col_a3 = st.columns(3)
 
 with col_a1:
-    st.markdown("### 🫁 Masalah pernapasan")
+    st.markdown("### Masalah pernapasan")
     st.write("Meningkatnya kasus asma dan bronkitis")
 
 with col_a2:
-    st.markdown("### 🫁 Penurunan fungsi paru-paru")
+    st.markdown("### Penurunan fungsi paru-paru")
     st.write("Paparan jangka panjang dapat mengganggu perkembangan paru-paru")
 
 with col_a3:
-    st.markdown("### 🧠 Perkembangan kognitif")
+    st.markdown("### Perkembangan kognitif")
     st.write("Dampak potensial terhadap perkembangan otak dan prestasi akademik")
 
-st.caption("Sumber: EEA [European Environment Agency](https://www.eea.europa.eu/en)")
+st.caption("Sumber: [EEA (European Environment Agency)](https://www.eea.europa.eu/en)")
 
 # Bagian bawah: statistik global
 st.markdown("###")
@@ -108,7 +108,7 @@ with col_b2:
     - **0,5 juta**  
       Karena polusi ozon luar ruangan  
     """)
-    st.caption("Sumber: Health Effects Institute 2021 - Numbers for 2021")
+    st.caption("Sumber: [Health Effects Institute 2021 - Numbers for 2021](https://www.healtheffects.org/annual-report-2021)")
 
 with col_b3:
     st.markdown("### 100/100,000")
@@ -121,5 +121,5 @@ with col_b3:
     - **6/100,000**  
       Dari polusi ozon luar ruangan  
     """)
-    st.caption("Sumber: IHME (Institute for Health Metrics and Evaluation) 2024")
+    st.caption("Sumber: [IHME (Institute for Health Metrics and Evaluation) 2024](https://www.healthdata.org/)")
 
