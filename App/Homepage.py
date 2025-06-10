@@ -86,7 +86,7 @@ with col_a3:
     st.markdown("### 🧠 Perkembangan kognitif")
     st.write("Dampak potensial terhadap perkembangan otak dan prestasi akademik")
 
-st.caption("Sumber: EEA (European Environment Agency)(https://www.eea.europa.eu/en)")
+st.caption("Sumber: EEA [European Environment Agency](https://www.eea.europa.eu/en)")
 
 # Bagian bawah: statistik global
 st.markdown("###")
