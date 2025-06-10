@@ -133,12 +133,47 @@ Sumber buatan manusia—seperti kendaraan bermotor, pembangkit listrik, pabrik, 
 Kontribusi tiap sumber polusi berbeda-beda tergantung lokasi dan kebijakan setempat. Setiap wilayah memiliki campuran penyebab dan jenis polutannya sendiri, yang umumnya dikelompokkan sebagai berikut:
 """)
 
-st.markdown("##### Industri")
+st.markdown("###### Industri")
 st.markdown(""" 
 Industri mencakup polusi dari fasilitas seperti pabrik manufaktur, pertambangan, dan kilang minyak serta pembangkit listrik tenaga batu bara dan boiler untuk pembangkitan panas dan listrik.
 
 Aktivitas industri merupakan sumber global utama nitrogen oksida (NOx), hidrogen sulfida, senyawa organik yang mudah menguap (VOC), dan materi partikulat, yang semuanya berkontribusi terhadap ozon dan kabut asap.
 """)
+
+st.markdown("###### Pertanian")
+st.markdown(""" 
+Penggunaan pupuk yang berlebihan di lahan pertanian merupakan salah satu penyumbang polusi udara partikulat halus yang signifikan. 
+Sebuah studi dalam Geophysical Research Letters menemukan bahwa polusi yang dihasilkan dari pertanian lebih besar daripada semua sumber PM buatan manusia lainnya di sebagian besar wilayah Amerika Serikat, Eropa, Rusia, dan Cina.
+
+Secara global, penggunaan lahan pertanian meningkat karena meningkatnya permintaan produk hewani dan makanan per kapita.
+""")
+
+st.markdown("###### Mengangkut")
+st.markdown(""" 
+Polusi udara dari transportasi terutama mengacu pada pembakaran bahan bakar pada kendaraan bermotor, seperti mobil, truk, kereta api, pesawat terbang, dan kapal. 
+Emisi transportasi merupakan penyumbang utama meningkatnya kadar partikel halus (PM2.5), ozon, dan nitrogen dioksida (NO2).
+
+Mayoritas emisi dari transportasi terjadi di pasar kendaraan teratas dunia, karena cenderung ada korelasi kuat antara emisi transportasi per kapita dan pendapatan.
+Seiring meningkatnya standar hidup dan aktivitas ekonomi, demikian pula permintaan akan transportasi.
+""")
+
+st.markdown("###### Sumber alami")
+st.markdown(""" 
+Sumber polusi udara alami mencakup fenomena yang terjadi secara alami seperti aktivitas gunung berapi, kebakaran hutan, dan badai debu atau pasir. 
+Dampak sumber alami terhadap kualitas udara sangat bergantung pada lingkungan setempat. 
+Misalnya, lokasi di dekat gurun besar seperti Sahara sangat terpengaruh oleh debu dan pasir yang tertiup angin, sementara lokasi hutan lebih mungkin mengalami polusi udara akibat kebakaran hutan.
+""")
+
+st.markdown("###### Rumah tangga")
+st.markdown(""" 
+Polusi udara rumah tangga mengacu pada aktivitas pribadi, seperti memasak dan memanaskan rumah dengan pembakaran batu bara atau kayu serta pembangunan dan konstruksi rumah dan perabotan.
+""")
+
+st.markdown("###### Kebakaran hutan dan pembakaran terbuka")
+st.markdown(""" 
+Pembakaran bahan tanaman mengeluarkan sejumlah besar polutan, seperti halnya pembakaran bahan bakar padat lainnya seperti batu bara. 
+Pembakaran bahan organik mengeluarkan partikel (PM), nitrogen oksida (NOx), karbon monoksida (CO), sulfur dioksida SO2), timbal, merkuri, dan polutan udara berbahaya (HAP) lainnya. Kebakaran ini dapat terjadi secara organik, tidak sengaja, atau disengaja. 
+Karena kebakaran ini sering kali terjadi dalam skala besar, kebakaran hutan dan pembakaran terbuka berpotensi menyebabkan polusi udara yang luas.""")
 
 st.markdown("#### Tingkat polusi udara yang tinggi dapat menyebabkan masalah kesehatan termasuk:")
 st.markdown("""
