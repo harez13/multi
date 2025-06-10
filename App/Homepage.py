@@ -124,7 +124,13 @@ with col_b3:
     st.caption("Sumber: [IHME (Institute for Health Metrics and Evaluation) 2024](https://www.healthdata.org/)")
 
 st.markdown("---")
-st.markdown("#### Dampak Kesehatan Akibat Polusi Udara Tinggi")
+st.markdown("#### Apa yang menyebabkan kualitas udara buruk?")
+st.markdown(""" 
+Polusi udara dapat disebabkan oleh sumber buatan manusia maupun sumber alami. Sumber alami meliputi debu, tanah, dan pasir yang tertiup angin atau terlontar, asap vulkanik, dan material yang terbakar. Sumber buatan manusia, yang berarti polusi disebabkan oleh tindakan manusia, cenderung menjadi kontributor utama polusi udara di kota-kota dan secara inheren lebih dapat dipengaruhi oleh peraturan. Sumber buatan manusia terutama meliputi berbagai bentuk pembakaran, seperti dari transportasi bertenaga gas (pesawat terbang, kereta api, dan mobil) dan bisnis industri (pembangkit listrik, kilang minyak, dan pabrik), pembakaran biomassa (pembakaran bahan tanaman atau batu bara untuk pemanasan, memasak, dan energi), dan pertanian.
+
+Kontribusi berbagai sumber polusi udara terhadap kualitas udara suatu lokasi sangat bergantung pada lokasi dan peraturan kota. Setiap lokasi memiliki campuran kontributor dan polutannya sendiri. Sumber-sumber tersebut umumnya dikategorikan ke dalam berikut ini:
+
+""")
 
 st.markdown("#### Tingkat polusi udara yang tinggi dapat menyebabkan masalah kesehatan termasuk:")
 st.markdown("""
