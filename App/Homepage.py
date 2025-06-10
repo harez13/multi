@@ -65,4 +65,61 @@ with col2:
             st.markdown(f"<div style='padding:12px; border:1px solid #ccc; border-radius:8px; margin-bottom:8px;'>"
                         f"<h3 style='margin:0'>{ikon}</h3><p style='margin:0'>{nama}</p></div>", unsafe_allow_html=True)
 
-    st.caption("Sumber: AQMD Community in Action Guidebook")
+    st.caption("Sumber: [AQMD Community in Action Guidebook](https://www.aqmd.gov/docs/default-source/aq-spec/star-grant/community-in-action-guidebook-on-air-quality-sensors-%28appendices-only%29.pdf)")
+
+
+st.markdown("---")
+st.subheader("Bagaimana polusi udara memengaruhi anak-anak?")
+
+# Bagian atas: dampak terhadap anak-anak
+col_a1, col_a2, col_a3 = st.columns(3)
+
+with col_a1:
+    st.markdown("### 🫁 Masalah pernapasan")
+    st.write("Meningkatnya kasus asma dan bronkitis")
+
+with col_a2:
+    st.markdown("### 🫁 Penurunan fungsi paru-paru")
+    st.write("Paparan jangka panjang dapat mengganggu perkembangan paru-paru")
+
+with col_a3:
+    st.markdown("### 🧠 Perkembangan kognitif")
+    st.write("Dampak potensial terhadap perkembangan otak dan prestasi akademik")
+
+st.caption("Sumber: EEA (European Environment Agency)")
+
+# Bagian bawah: statistik global
+st.markdown("###")
+col_b1, col_b2, col_b3 = st.columns(3)
+
+with col_b1:
+    st.markdown("### 99%")
+    st.write("Populasi dunia tinggal di tempat-tempat yang kualitas udaranya melampaui batas pedoman tahunan WHO.")
+    st.caption("Sumber: [World Health Organization](https://www.who.int)")
+
+with col_b2:
+    st.markdown("### 8,1 Juta")
+    st.write("Kematian di seluruh dunia dapat disebabkan oleh polusi udara.")
+    st.markdown("""
+    - **4,7 juta**  
+      Karena polusi udara partikulatif luar ruangan  
+    - **3,1 juta**  
+      Karena polusi udara dalam ruangan  
+    - **0,5 juta**  
+      Karena polusi ozon luar ruangan  
+    """)
+    st.caption("Sumber: Health Effects Institute 2021 - Numbers for 2021")
+
+with col_b3:
+    st.markdown("### 100/100,000")
+    st.write("Orang-orang di seluruh dunia meninggal karena polusi udara.")
+    st.markdown("""
+    - **58/100,000**  
+      Dari partikel luar ruangan  
+    - **39/100,000**  
+      Dari polusi udara dalam ruangan  
+    - **6/100,000**  
+      Dari polusi ozon luar ruangan  
+    """)
+    st.caption("Sumber: IHME (Institute for Health Metrics and Evaluation) 2024")
+
