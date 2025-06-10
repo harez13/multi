@@ -126,7 +126,7 @@ with col_b3:
 import streamlit as st
 
 st.markdown("---")
-st.markdown("### Dampak Kesehatan Akibat Polusi Udara Tinggi")
+st.markdown("## Dampak Kesehatan Akibat Polusi Udara Tinggi")
 
 st.markdown("### Tingkat polusi udara yang tinggi dapat menyebabkan masalah kesehatan termasuk:")
 st.markdown("""
