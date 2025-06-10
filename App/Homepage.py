@@ -256,6 +256,43 @@ with col3:
     - Kematian dini  
     """)
 
-st.caption("Sumber: IQAir (2024)")
+import streamlit as st
+
+st.markdown("---")
+st.header("Bagaimana saya bisa melindungi diri dari polusi udara?")
+
+st.subheader("Bagaimana saya dapat meningkatkan kualitas udara di rumah saya?")
+st.markdown("""
+Kualitas udara dalam ruangan tidak aman dari polusi udara luar ruangan. Selain itu, ada banyak sumber emisi khusus untuk lingkungan dalam ruangan yang dapat menyebabkan peningkatan tingkat polusi udara dalam ruangan. Untuk meningkatkan kualitas udara di rumah, ventilasi dalam ruangan dan sumber dalam ruangan harus dikelola.
+""")
+
+st.subheader("Metode mitigasi polusi udara dalam ruangan meliputi:")
+st.markdown("""
+- Periksa tingkat kualitas udara terkini dan prakiraan di wilayah Anda. Ikuti anjuran kesehatan untuk kondisi terkini.  
+- Tutup jendela dan pintu. Tutup rapat celah-celah pintu dan jendela untuk meminimalkan kebocoran udara.  
+- Bila udara luar sangat tercemar, atur sistem pendingin udara (HVAC) dengan pemasukan udara segar ke mode resirkulasi.  
+- Gunakan pembersih udara atau filter HVAC efisiensi tinggi (seperti filter HEPA atau HyperHEPA) untuk menghilangkan polutan halus dari udara.
+""")
+
+st.subheader("Jika tingkat polusi udara dalam ruangan sudah sangat tinggi:")
+st.markdown("""
+- Hindari aktivitas berat, seperti berolahraga, untuk mengurangi jumlah polusi udara yang Anda hirup.  
+- Gunakan masker polusi N95, jika tersedia.  
+- Hindari penggunaan produk rumah tangga selama polusi udara sangat tinggi.  
+- Jalankan pembersih udara secara berkala pada pengaturan output tertinggi.  
+- Ketahui peringatan kualitas udara ketika polusi udara ruangan menjadi “berbahaya” yang dapat terjadi jika terjadi kebakaran hutan di dekatnya.
+""")
+
+st.subheader("Bagaimana masker dapat melindungi dari polusi udara?")
+st.markdown("""
+Masker sangat efektif dalam mengurangi paparan polusi udara. Sementara kategori masker polusi udara yang umum mencakup masker untuk menangani bahan kimia yang berasal dari pembakaran, sebagian besar tersedia di pasaran hanya bekerja untuk partikel dan polutan kecil.  
+
+Untuk penggunaan sehari-hari, masker dengan filter partikel udara yang halus cocok untuk orang yang mengalami gas pada tingkat bahaya sedang atau tinggi. Masker berkualitas tinggi bisa membantu melindungi seseorang dari PM2.5, virus, bakteri, dan alergen.  
+
+**Dalam mengevaluasi efektivitas masker polusi, tiga komponen harus dievaluasi:** filter polusi, segel masker, dan ventilasi.
+""")
+
+st.caption("Sumber: IQAir (2024) – disederhanakan dan disusun ulang untuk kejelasan")
+
 
 
