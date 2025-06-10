@@ -125,43 +125,65 @@ with col_b3:
 
 import streamlit as st
 
-st.set_page_config(layout="wide", page_title="Faktor & Perlindungan Polusi Udara")
-st.title("Apa yang menyebabkan kualitas udara buruk?")
-
-# Penyebab polusi (dengan ikon)
-causes = [
-    :contentReference[oaicite:1]{index=1}
-    :contentReference[oaicite:2]{index=2}
-    :contentReference[oaicite:3]{index=3}
-    :contentReference[oaicite:4]{index=4}
-    :contentReference[oaicite:5]{index=5}
-]
-
-:contentReference[oaicite:6]{index=6}
-:contentReference[oaicite:7]{index=7}
-    :contentReference[oaicite:8]{index=8}
-        :contentReference[oaicite:9]{index=9}
-        :contentReference[oaicite:10]{index=10}
-
-:contentReference[oaicite:11]{index=11}
-
 st.markdown("---")
-:contentReference[oaicite:12]{index=12}
+st.title("Dampak Kesehatan Akibat Polusi Udara Tinggi")
 
-# Langkah perlindungan
-tips = [
-    :contentReference[oaicite:13]{index=13}
-    :contentReference[oaicite:14]{index=14} :contentReference[oaicite:15]{index=15}."),
-    :contentReference[oaicite:16]{index=16} :contentReference[oaicite:17]{index=17}."),
-    :contentReference[oaicite:18]{index=18} :contentReference[oaicite:19]{index=19}."),
-    :contentReference[oaicite:20]{index=20} :contentReference[oaicite:21]{index=21}."),
-    :contentReference[oaicite:22]{index=22} :contentReference[oaicite:23]{index=23}.")
-]
+st.markdown("### Tingkat polusi udara yang tinggi dapat menyebabkan masalah kesehatan termasuk:")
+st.markdown("""
+- Efek jangka pendek: kesulitan bernapas, nyeri dada, mengi, batuk, ketidaknyamanan pernapasan umum, dan iritasi mata, hidung, dan tenggorokan.  
+- Efek jangka panjang: kerusakan jaringan paru-paru, kanker, kematian dini, dan perkembangan penyakit pernapasan seperti asma, bronkitis, dan emfisema.
+""")
 
-for title, desc in tips:
-    st.markdown(f"**{title}**")
-    st.write(desc)
+st.markdown("### Kelompok yang paling rentan terhadap dampak kesehatan buruk akibat polusi udara meliputi:")
+st.markdown("""
+- Penyakit jantung, seperti penyakit arteri koroner (CAD) atau gagal jantung kongestif  
+- Penyakit paru-paru, seperti asma, emfisema, atau penyakit paru obstruktif kronik (PPOK)  
+- Orang lanjut usia dan orang lanjut usia  
+- Anak-anak di bawah usia 14 tahun  
+- Wanita hamil  
+- Pekerja luar ruangan  
+- Atlet yang berolahraga di luar ruangan dengan giat
+""")
 
-st.caption("Ringkasan dari panduan IQAir dan sumber terkait.")
+st.markdown("### Dampak kesehatan akibat polutan udara tertentu")
+
+# Buat tabel 3 kolom seperti pada gambar
+col1, col2, col3 = st.columns([1, 1.2, 1.2])
+
+with col1:
+    st.markdown("#### Ozon Tingkat Dasar")
+    st.markdown("""
+    - Penurunan fungsi paru-paru  
+    - Asma yang memburuk  
+    - Iritasi tenggorokan dan hidung  
+    - Nyeri dada dan sesak napas  
+    - Gejala mirip flu  
+    - Kematian dini  
+    - Kerentanan tinggi terhadap infeksi pernapasan  
+    """)
+
+with col2:
+    st.markdown("#### Partikel Materi (PM) dan Asap Kebakaran Hutan")
+    st.markdown("**Jangka pendek**")
+    st.markdown("""
+    - Detak jantung tidak teratur  
+    - Nyeri dada  
+    - Batuk  
+    - Iritasi pada mata, hidung, dan tenggorokan  
+    - Asma yang memburuk  
+    - Penurunan fungsi paru-paru  
+    """)
+
+with col3:
+    st.markdown("#### Partikel Materi (PM) dan Asap Kebakaran Hutan")
+    st.markdown("**Jangka panjang**")
+    st.markdown("""
+    - Kerusakan jaringan paru-paru  
+    - Kanker  
+    - Perkembangan penyakit pernapasan seperti asma, bronkitis, dan emfisema  
+    - Kematian dini  
+    """)
+
+st.caption("Sumber: IQAir (2024) – disederhanakan dan disusun ulang untuk kejelasan")
 
 
