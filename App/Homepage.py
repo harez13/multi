@@ -123,18 +123,16 @@ with col_b3:
     """)
     st.caption("Sumber: [IHME (Institute for Health Metrics and Evaluation) 2024](https://www.healthdata.org/)")
 
-import streamlit as st
-
 st.markdown("---")
-st.markdown("## Dampak Kesehatan Akibat Polusi Udara Tinggi")
+st.markdown("#### Dampak Kesehatan Akibat Polusi Udara Tinggi")
 
-st.markdown("### Tingkat polusi udara yang tinggi dapat menyebabkan masalah kesehatan termasuk:")
+st.markdown("#### Tingkat polusi udara yang tinggi dapat menyebabkan masalah kesehatan termasuk:")
 st.markdown("""
 - Efek jangka pendek: kesulitan bernapas, nyeri dada, mengi, batuk, ketidaknyamanan pernapasan umum, dan iritasi mata, hidung, dan tenggorokan.  
 - Efek jangka panjang: kerusakan jaringan paru-paru, kanker, kematian dini, dan perkembangan penyakit pernapasan seperti asma, bronkitis, dan emfisema.
 """)
 
-st.markdown("### Kelompok yang paling rentan terhadap dampak kesehatan buruk akibat polusi udara meliputi:")
+st.markdown("#### Kelompok yang paling rentan terhadap dampak kesehatan buruk akibat polusi udara meliputi:")
 st.markdown("""
 - Penyakit jantung, seperti penyakit arteri koroner (CAD) atau gagal jantung kongestif  
 - Penyakit paru-paru, seperti asma, emfisema, atau penyakit paru obstruktif kronik (PPOK)  
@@ -145,13 +143,13 @@ st.markdown("""
 - Atlet yang berolahraga di luar ruangan dengan giat
 """)
 
-st.markdown("### Dampak kesehatan akibat polutan udara tertentu")
+st.markdown("#### Dampak kesehatan akibat polutan udara tertentu")
 
 # Buat tabel 3 kolom seperti pada gambar
 col1, col2, col3 = st.columns([1, 1.2, 1.2])
 
 with col1:
-    st.markdown("#### Ozon Tingkat Dasar")
+    st.markdown("##### Ozon Tingkat Dasar")
     st.markdown("""
     - Penurunan fungsi paru-paru  
     - Asma yang memburuk  
@@ -163,7 +161,7 @@ with col1:
     """)
 
 with col2:
-    st.markdown("#### Partikel Materi (PM) dan Asap Kebakaran Hutan")
+    st.markdown("##### Partikel Materi (PM) dan Asap Kebakaran Hutan")
     st.markdown("**Jangka pendek**")
     st.markdown("""
     - Detak jantung tidak teratur  
@@ -175,7 +173,7 @@ with col2:
     """)
 
 with col3:
-    st.markdown("#### Partikel Materi (PM) dan Asap Kebakaran Hutan")
+    st.markdown("##### Partikel Materi (PM) dan Asap Kebakaran Hutan")
     st.markdown("**Jangka panjang**")
     st.markdown("""
     - Kerusakan jaringan paru-paru  
