@@ -189,12 +189,6 @@ Di antara anak-anak di bawah usia 15 tahun, polusi udara merupakan penyebab kema
 
 Polusi udara digambarkan sebagai ‘pembunuh diam-diam’ karena jarang menjadi penyebab langsung kematian. 
 Sebaliknya, polusi udara merupakan penyebab kematian dini terbesar ke-4 di dunia, yang meliputi:
-- Efek jangka pendek: kesulitan bernapas, nyeri dada, mengi, batuk, ketidaknyamanan pernapasan umum, dan iritasi mata, hidung, dan tenggorokan.  
-- Efek jangka panjang: kerusakan jaringan paru-paru, kanker, kematian dini, dan perkembangan penyakit pernapasan seperti asma, bronkitis, dan emfisema.
-""")
-
-st.markdown("##### Tingkat polusi udara yang tinggi dapat menyebabkan masalah kesehatan termasuk:")
-st.markdown("""
 - 29% dari seluruh kematian dan penyakit disebabkan oleh kanker paru-paru
 - 17% dari seluruh kematian dan penyakit disebabkan oleh infeksi saluran pernapasan bawah akut
 - 24% dari seluruh kematian akibat stroke
@@ -204,8 +198,12 @@ st.markdown("""
 Diperkirakan 99% dari populasi global menghirup udara yang tidak sehat. 
 Meskipun angka ini bervariasi di tiap wilayah, tidak ada satu pun yang bebas dari risiko. 
 [Laporan Kualitas Udara Dunia tahun 2024](https://www.iqair.com/id/world-air-quality-report) menemukan bahwa 91% dari 138 negara dan wilayah di seluruh dunia melampaui nilai pedoman PM2.5 tahunan WHO sebesar 5 µg/m3, dengan wilayah Asia Tengah & Selatan di antara sepuluh kota paling tercemar di dunia.
+""")
 
-
+st.markdown("##### Tingkat polusi udara yang tinggi dapat menyebabkan masalah kesehatan termasuk:")
+st.markdown("""
+- Efek jangka pendek: kesulitan bernapas, nyeri dada, mengi, batuk, ketidaknyamanan pernapasan umum, dan iritasi mata, hidung, dan tenggorokan.  
+- Efek jangka panjang: kerusakan jaringan paru-paru, kanker, kematian dini, dan perkembangan penyakit pernapasan seperti asma, bronkitis, dan emfisema.
 """)
 
 st.markdown("##### Kelompok yang paling rentan terhadap dampak kesehatan buruk akibat polusi udara meliputi:")
