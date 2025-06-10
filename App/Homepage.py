@@ -126,7 +126,7 @@ with col_b3:
 import streamlit as st
 
 st.markdown("---")
-st.title("Dampak Kesehatan Akibat Polusi Udara Tinggi")
+st.markdown("### Dampak Kesehatan Akibat Polusi Udara Tinggi")
 
 st.markdown("### Tingkat polusi udara yang tinggi dapat menyebabkan masalah kesehatan termasuk:")
 st.markdown("""
@@ -184,6 +184,6 @@ with col3:
     - Kematian dini  
     """)
 
-st.caption("Sumber: IQAir (2024) – disederhanakan dan disusun ulang untuk kejelasan")
+st.caption("Sumber: IQAir (2024)")
 
 
