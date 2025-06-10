@@ -126,9 +126,11 @@ with col_b3:
 st.markdown("---")
 st.markdown("#### Apa yang menyebabkan kualitas udara buruk?")
 st.markdown(""" 
-Polusi udara dapat disebabkan oleh sumber buatan manusia maupun sumber alami. Sumber alami meliputi debu, tanah, dan pasir yang tertiup angin atau terlontar, asap vulkanik, dan material yang terbakar. Sumber buatan manusia, yang berarti polusi disebabkan oleh tindakan manusia, cenderung menjadi kontributor utama polusi udara di kota-kota dan secara inheren lebih dapat dipengaruhi oleh peraturan. Sumber buatan manusia terutama meliputi berbagai bentuk pembakaran, seperti dari transportasi bertenaga gas (pesawat terbang, kereta api, dan mobil) dan bisnis industri (pembangkit listrik, kilang minyak, dan pabrik), pembakaran biomassa (pembakaran bahan tanaman atau batu bara untuk pemanasan, memasak, dan energi), dan pertanian.
+Polusi udara berasal dari sumber alami maupun buatan manusia.
+Sumber alami mencakup debu, tanah, pasir yang terbawa angin, asap gunung berapi, dan material yang terbakar.
+Sumber buatan manusia—seperti kendaraan bermotor, pembangkit listrik, pabrik, pembakaran bahan bakar, dan kegiatan pertanian—merupakan penyebab utama polusi udara di kota-kota dan lebih mudah dikendalikan melalui peraturan.
 
-Kontribusi berbagai sumber polusi udara terhadap kualitas udara suatu lokasi sangat bergantung pada lokasi dan peraturan kota. Setiap lokasi memiliki campuran kontributor dan polutannya sendiri. Sumber-sumber tersebut umumnya dikategorikan ke dalam berikut ini:
+Kontribusi tiap sumber polusi berbeda-beda tergantung lokasi dan kebijakan setempat. Setiap wilayah memiliki campuran penyebab dan jenis polutannya sendiri, yang umumnya dikelompokkan sebagai berikut:
 
 """)
 
