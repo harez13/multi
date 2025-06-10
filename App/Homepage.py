@@ -31,11 +31,11 @@ with col1:
     ]
 
     st.markdown("###")
-    # for i, faktor, jumlah in data_risiko:
-    #     highlight = faktor.lower().startswith("polusi") or faktor.lower() == "asap rokok"
-    #     st.markdown(f"<div style='padding:4px; background-color:{'#E6F0FA' if highlight else 'transparent'}'>"
-    #                 f"<strong>{i}.</strong> {faktor} <span style='float:right'>{jumlah}</span></div>",
-    #                 unsafe_allow_html=True)
+    for i, faktor, jumlah in data_risiko:
+        highlight = faktor.lower().startswith("polusi") or faktor.lower() == "asap rokok"
+        st.markdown(f"<div style='padding:4px; background-color:{'#E6F0FA' if highlight else 'transparent'}'>"
+                    f"<strong>{i}.</strong> {faktor} <span style='float:right'>{jumlah}</span></div>",
+                    unsafe_allow_html=True)
 
     st.caption("Sumber: [IHME, Global Burden of Disease (2024)](https://www.healthdata.org/research-analysis/gbd)")
 
