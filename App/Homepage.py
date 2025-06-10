@@ -131,7 +131,13 @@ Sumber alami mencakup debu, tanah, pasir yang terbawa angin, asap gunung berapi,
 Sumber buatan manusia—seperti kendaraan bermotor, pembangkit listrik, pabrik, pembakaran bahan bakar, dan kegiatan pertanian—merupakan penyebab utama polusi udara di kota-kota dan lebih mudah dikendalikan melalui peraturan.
 
 Kontribusi tiap sumber polusi berbeda-beda tergantung lokasi dan kebijakan setempat. Setiap wilayah memiliki campuran penyebab dan jenis polutannya sendiri, yang umumnya dikelompokkan sebagai berikut:
+""")
 
+st.markdown("##### Industri")
+st.markdown(""" 
+Industri mencakup polusi dari fasilitas seperti pabrik manufaktur, pertambangan, dan kilang minyak serta pembangkit listrik tenaga batu bara dan boiler untuk pembangkitan panas dan listrik.
+
+Aktivitas industri merupakan sumber global utama nitrogen oksida (NOx), hidrogen sulfida, senyawa organik yang mudah menguap (VOC), dan materi partikulat, yang semuanya berkontribusi terhadap ozon dan kabut asap.
 """)
 
 st.markdown("#### Tingkat polusi udara yang tinggi dapat menyebabkan masalah kesehatan termasuk:")
